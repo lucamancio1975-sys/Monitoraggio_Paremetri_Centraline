@@ -195,4 +195,21 @@ def analizza_stazione_giornaliera(
             "stato_rilevamento": stato,
         })
 
+    # Gestione ritardo di pubblicazione del CFR Toscana (~75 minuti):
+    # Alle 23:50 i grafici riportano dati fino a circa le 22:30.
+    # Alle ore 23:00, se il dato non è ancora presente sul grafico,
+    # viene ricopiato l'ultimo dato utile rilevato alle ore 22:00.
+    rec_23 = next((r for r in records if r["ora"] == "23:00"), None)
+    if rec_23 and (rec_23["temperatura_c"] is None or rec_23["umidita_rh"] is None):
+        rec_22 = next((r for r in records if r["ora"] == "22:00"), None)
+        if rec_22 and rec_22["temperatura_c"] is not None and rec_22["umidita_rh"] is not None:
+            rec_23["temperatura_c"] = rec_22["temperatura_c"]
+            rec_23["umidita_rh"] = rec_22["umidita_rh"]
+            rec_23["stato_rilevamento"] = "COPIATO_DA_ORE_22"
+            logger.debug(
+                f"Ritardo CFR gestito: dato delle 23:00 ricopiato da ore 22:00 "
+                f"(T={rec_23['temperatura_c']}°C, RH={rec_23['umidita_rh']}%)"
+            )
+
     return records
+

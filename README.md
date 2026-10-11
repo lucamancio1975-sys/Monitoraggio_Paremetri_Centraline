@@ -49,7 +49,8 @@ Campi disponibili nei file CSV:
 * `id_stazione`: codice identificativo univoco CFR
 * `temperatura_c`: valore numerico di temperatura in °C (risoluzione $0.1\,^\circ\text{C}$)
 * `umidita_rh`: valore numerico di umidità relativa in % (risoluzione $0.1\%$)
-* `stato_rilevamento`: stato del dato (`OK`, `DATO_ASSENTE`)
+* `stato_rilevamento`: stato del dato (`OK`, `COPIATO_DA_ORE_22`, `DATO_ASSENTE`). Nota: per compensare il ritardo di pubblicazione del CFR (~75 minuti), alle 23:50 il valore delle ore 23:00 ricopia automaticamente l'ultimo valore rilevato alle ore 22:00.
+
 
 ---
 
