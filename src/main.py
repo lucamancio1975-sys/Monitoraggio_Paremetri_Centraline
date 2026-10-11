@@ -2,7 +2,7 @@ import argparse
 import json
 import logging
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 import pytz
 
@@ -37,7 +37,7 @@ def parse_args():
     parser.add_argument(
         "--cron-guard",
         action="store_true",
-        help="Se attivo, verifica che l'ora locale italiana sia effettivamente quella di chiusura (dalle 23:00 in poi). Evita doppie esecuzioni dovute al doppio cron UTC per ora solare/legale.",
+        help="Se attivo, evita esecuzioni anomale fuori dalla finestra oraria notturna (dalle 22:00 alle 05:00).",
     )
     return parser.parse_args()
 
@@ -51,16 +51,18 @@ def main():
     logger.info("AVVIO MONITORAGGIO PARAMETRI AMBIENTALI CFR TOSCANA")
     logger.info(f"Ora locale Roma: {now_rome.strftime('%Y-%m-%d %H:%M:%S %Z')} (Offset: {now_rome.strftime('%z')})")
 
-    # Verifica cron-guard per gestione automatica ora solare (CET) vs legale (CEST)
+    # Verifica cron-guard: consente le esecuzioni notturne tra le 22:00 e le 05:00 del mattino
     if args.cron_guard:
-        if now_rome.hour < 23:
+        if 5 <= now_rome.hour < 22:
             logger.info(
                 f"Controllo orario attivo: a Roma sono le {now_rome.strftime('%H:%M')} ({now_rome.tzname()}). "
-                "L'elaborazione deve avvenire alle 23:50. Uscita senza elaborazione."
+                "L'elaborazione notturna è prevista tra le 22:00 e le 05:00. Uscita senza elaborazione."
             )
             sys.exit(0)
 
-    # Determinazione data di analisi
+    # Determinazione data di analisi:
+    # Se eseguito tra le 00:00 e le 05:00 (a causa di ritardi di coda di GitHub Actions o cron di riserva),
+    # la giornata di riferimento è quella appena conclusa (ieri).
     if args.data:
         try:
             target_date = datetime.strptime(args.data, "%Y-%m-%d").date()
@@ -68,7 +70,14 @@ def main():
             logger.error(f"Formato data non valido: {args.data}. Usare YYYY-MM-DD.")
             sys.exit(1)
     else:
-        target_date = now_rome.date()
+        if now_rome.hour < 5:
+            target_date = (now_rome - timedelta(days=1)).date()
+            logger.info(
+                f"Esecuzione notturna (ore {now_rome.strftime('%H:%M')}): "
+                f"impostata data del giorno appena concluso ({target_date})."
+            )
+        else:
+            target_date = now_rome.date()
 
     logger.info(f"Data di analisi: {target_date.strftime('%Y-%m-%d')}")
 
