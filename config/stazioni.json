@@ -1,0 +1,79 @@
+[
+  {
+    "id": "TOS03003099",
+    "nome": "San Donato",
+    "slug": "san_donato",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS03003099&title=TOS03003099_termo&name=../tmp_cfr/td7c1e10c5c3c7dab855a6acc1b2ef2ca.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS03003099&title=TOS03003099_igro&name=../tmp_cfr/ue198100399b1eda9687ea15ce6714a2a.png&type=igro"
+  },
+  {
+    "id": "TOS11000006",
+    "nome": "Capalbio",
+    "slug": "capalbio",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000006&title=TOS11000006_termo&name=../tmp_cfr/t028de8d84d15b401fc42ace828716a38.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000006&title=TOS11000006_igro&name=../tmp_cfr/ua70cd5edf4d8fcbe17244dd8c95221cd.png&type=igro"
+  },
+  {
+    "id": "TOS11000005",
+    "nome": "Rispescia",
+    "slug": "rispescia",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000005&title=TOS11000005_termo&name=../tmp_cfr/tfacaf1e3377dc3f45a29a720a82e9120.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000005&title=TOS11000005_igro&name=../tmp_cfr/u24b2d69b7f61c3aedd81ee220e69b3bf.png&type=igro"
+  },
+  {
+    "id": "TOS11000008",
+    "nome": "Braccagni",
+    "slug": "braccagni",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000008&title=TOS11000008_termo&name=../tmp_cfr/td9bf3bdbcbd6354c72cf4faf0fe517a5.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000008&title=TOS11000008_igro&name=../tmp_cfr/uc9069fb303df99fc4504d330c4084b9b.png&type=igro"
+  },
+  {
+    "id": "TOS03003079",
+    "nome": "Manciano",
+    "slug": "manciano",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS03003079&title=TOS03003079_termo&name=../tmp_cfr/ta36df4f5796d961666b4f9b619a67130.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS03003079&title=TOS03003079_igro&name=../tmp_cfr/ub67c756e5c40054354f0b026082f0687.png&type=igro"
+  },
+  {
+    "id": "TOS11000014",
+    "nome": "Pitigliano",
+    "slug": "pitigliano",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000014&title=TOS11000014_termo&name=../tmp_cfr/t1a81ac40d7eacc6da7f8a7eab490eac6.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000014&title=TOS11000014_igro&name=../tmp_cfr/u382bc42ab678fd6675776b9d1a7a310c.png&type=igro"
+  },
+  {
+    "id": "TOS11000042",
+    "nome": "Stiacciole",
+    "slug": "stiacciole",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000042&title=TOS11000042_termo&name=../tmp_cfr/ta82839a1981b26e9053201f41f2bfe94.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000042&title=TOS11000042_igro&name=../tmp_cfr/u4310f49ecf03183e9f82f125478a3224.png&type=igro"
+  },
+  {
+    "id": "TOS11000041",
+    "nome": "Valpiana",
+    "slug": "valpiana",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000041&title=TOS11000041_termo&name=../tmp_cfr/t74012c001c9760eee3da2c9426cb1a58.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000041&title=TOS11000041_igro&name=../tmp_cfr/ue2b32fee42b45257faeba12068e215c2.png&type=igro"
+  },
+  {
+    "id": "TOS03002459",
+    "nome": "Follonica",
+    "slug": "follonica",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS03002459&title=TOS03002459_termo&name=../tmp_cfr/t88f3bca30f47a14e1eb679a9b2ee9161.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS03002459&title=TOS03002459_igro&name=../tmp_cfr/uc98248e12dede58ba8578ee17fc84b80.png&type=igro"
+  },
+  {
+    "id": "TOS11000051",
+    "nome": "Montenero",
+    "slug": "montenero",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000051&title=TOS11000051_termo&name=../tmp_cfr/te2467d93628c16aa65404383e3f8bd6c.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000051&title=TOS11000051_igro&name=../tmp_cfr/udeb53e8b39bbe734b6376661ad0f8973.png&type=igro"
+  },
+  {
+    "id": "TOS11000038",
+    "nome": "Castiglion Fiorentino",
+    "slug": "castiglion_fiorentino",
+    "url_termo": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000038&title=TOS11000038_termo&name=../tmp_cfr/t14957cbe6311c5a2a34ae1fd2fb7ff10.png&type=termo",
+    "url_igro": "https://www.cfr.toscana.it/monitoraggio/image.php?id=TOS11000038&title=TOS11000038_igro&name=../tmp_cfr/u5b246e280bfc938e54554366aeb85eb4.png&type=igro"
+  }
+]
