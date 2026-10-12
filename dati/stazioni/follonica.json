@@ -11,8 +11,8 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 13.6,
-      "umidita_rh": 95.4,
+      "temperatura_c": 17.7,
+      "umidita_rh": 83.1,
       "stato_rilevamento": "OK"
     },
     {
@@ -22,8 +22,8 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 13.3,
-      "umidita_rh": 95.4,
+      "temperatura_c": 17.3,
+      "umidita_rh": 83.4,
       "stato_rilevamento": "OK"
     },
     {
@@ -33,8 +33,8 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 13.3,
-      "umidita_rh": 97.8,
+      "temperatura_c": 17.1,
+      "umidita_rh": 85.5,
       "stato_rilevamento": "OK"
     },
     {
@@ -44,8 +44,8 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 12.8,
-      "umidita_rh": 97.2,
+      "temperatura_c": 16.4,
+      "umidita_rh": 88.0,
       "stato_rilevamento": "OK"
     },
     {
@@ -55,9 +55,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 12.9,
-      "umidita_rh": 98.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T05:00:00+02:00",
@@ -66,9 +66,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 12.8,
-      "umidita_rh": 97.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T06:00:00+02:00",
@@ -77,9 +77,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 12.8,
-      "umidita_rh": 97.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T07:00:00+02:00",
@@ -88,9 +88,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 12.3,
-      "umidita_rh": 99.4,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T08:00:00+02:00",
@@ -99,9 +99,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 16.4,
-      "umidita_rh": 100.0,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T09:00:00+02:00",
@@ -110,9 +110,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 19.5,
-      "umidita_rh": 76.9,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T10:00:00+02:00",
@@ -121,9 +121,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 21.9,
-      "umidita_rh": 65.8,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T11:00:00+02:00",
@@ -132,9 +132,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 21.8,
-      "umidita_rh": 64.6,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T12:00:00+02:00",
@@ -143,9 +143,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 21.7,
-      "umidita_rh": 62.5,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T13:00:00+02:00",
@@ -154,9 +154,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 22.2,
-      "umidita_rh": 61.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T14:00:00+02:00",
@@ -165,9 +165,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 22.7,
-      "umidita_rh": 62.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T15:00:00+02:00",
@@ -176,9 +176,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 23.3,
-      "umidita_rh": 64.6,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T16:00:00+02:00",
@@ -187,9 +187,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 23.4,
-      "umidita_rh": 65.8,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T17:00:00+02:00",
@@ -198,9 +198,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 22.7,
-      "umidita_rh": 69.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T18:00:00+02:00",
@@ -209,9 +209,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 19.1,
-      "umidita_rh": 83.7,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T19:00:00+02:00",
@@ -220,9 +220,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 17.6,
-      "umidita_rh": 91.1,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T20:00:00+02:00",
@@ -231,9 +231,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 17.5,
-      "umidita_rh": 93.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T21:00:00+02:00",
@@ -242,9 +242,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 18.3,
-      "umidita_rh": 89.8,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T22:00:00+02:00",
@@ -253,9 +253,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 17.9,
-      "umidita_rh": 86.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     },
     {
       "timestamp": "2026-10-11T23:00:00+02:00",
@@ -264,9 +264,9 @@
       "fuso_orario": "CEST",
       "stazione": "Follonica",
       "id_stazione": "TOS03002459",
-      "temperatura_c": 18.5,
-      "umidita_rh": 81.2,
-      "stato_rilevamento": "OK"
+      "temperatura_c": null,
+      "umidita_rh": null,
+      "stato_rilevamento": "DATO_ASSENTE"
     }
   ]
 }
