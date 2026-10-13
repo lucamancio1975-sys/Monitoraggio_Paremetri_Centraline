@@ -23,7 +23,7 @@ DY = Y_0 - Y_MAX  # Escursione totale: 325 pixel
 # Fondo scala Umidità Relativa
 VALORE_MAX_RH = 100.0
 
-# Mappatura ore della giornata attuale (oggi) -> coordinate X dei pixel
+# Mappatura ore della giornata attuale (oggi, metà destra del grafico) -> coordinate X dei pixel
 # Le ore 00:00 - 23:00 corrispondono a questi indici orizzontali calibrati
 MAPPA_ORE_OGGI = {
     0: 325,
@@ -50,6 +50,37 @@ MAPPA_ORE_OGGI = {
     21: 549,
     22: 559,
     23: 570
+}
+
+# Mappatura ore della giornata precedente (ieri, metà sinistra del grafico CFR)
+# Offset calibrated: ~255 pixel a sinistra rispetto a oggi.
+# Il dato delle 00:00 (pixel X=71) è adiacente all'asse Y ed è impostato di default
+# uguale al dato delle 01:00 per garantire massima stabilità del dato notturno.
+MAPPA_ORE_IERI = {
+    0: 71,
+    1: 81,
+    2: 91,
+    3: 102,
+    4: 113,
+    5: 123,
+    6: 134,
+    7: 145,
+    8: 155,
+    9: 166,
+    10: 176,
+    11: 187,
+    12: 198,
+    13: 209,
+    14: 219,
+    15: 230,
+    16: 240,
+    17: 251,
+    18: 261,
+    19: 272,
+    20: 283,
+    21: 294,
+    22: 304,
+    23: 315
 }
 
 # Parametri colore per Computer Vision (OpenCV)

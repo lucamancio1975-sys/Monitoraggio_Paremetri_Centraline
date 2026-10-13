@@ -32,12 +32,19 @@ def parse_args():
         "--data",
         type=str,
         default=None,
-        help="Data target nel formato YYYY-MM-DD. Se non specificata, usa la data corrente di Roma.",
+        help="Data target nel formato YYYY-MM-DD. Se non specificata, usa la data di ieri (sezione sinistra dei grafici).",
+    )
+    parser.add_argument(
+        "--sezione",
+        type=str,
+        choices=["ieri", "oggi"],
+        default=None,
+        help="Sezione del grafico da analizzare ('ieri' o 'oggi'). Di default auto-determinata ('ieri' per esecuzione mattutina).",
     )
     parser.add_argument(
         "--cron-guard",
         action="store_true",
-        help="Se attivo, evita esecuzioni anomale fuori dalla finestra oraria notturna (dalle 22:00 alle 05:00).",
+        help="Se attivo, consente l'esecuzione nella finestra oraria mattutina (04:30 - 08:30) ed evita doppie elaborazioni.",
     )
     return parser.parse_args()
 
@@ -51,35 +58,58 @@ def main():
     logger.info("AVVIO MONITORAGGIO PARAMETRI AMBIENTALI CFR TOSCANA")
     logger.info(f"Ora locale Roma: {now_rome.strftime('%Y-%m-%d %H:%M:%S %Z')} (Offset: {now_rome.strftime('%z')})")
 
-    # Verifica cron-guard: consente le esecuzioni notturne tra le 22:00 e le 05:00 del mattino
-    if args.cron_guard:
-        if 5 <= now_rome.hour < 22:
-            logger.info(
-                f"Controllo orario attivo: a Roma sono le {now_rome.strftime('%H:%M')} ({now_rome.tzname()}). "
-                "L'elaborazione notturna è prevista tra le 22:00 e le 05:00. Uscita senza elaborazione."
-            )
-            sys.exit(0)
-
-    # Determinazione data di analisi:
-    # Se eseguito tra le 00:00 e le 05:00 (a causa di ritardi di coda di GitHub Actions o cron di riserva),
-    # la giornata di riferimento è quella appena conclusa (ieri).
+    # Determinazione data di analisi e sezione del grafico:
     if args.data:
         try:
             target_date = datetime.strptime(args.data, "%Y-%m-%d").date()
         except ValueError:
             logger.error(f"Formato data non valido: {args.data}. Usare YYYY-MM-DD.")
             sys.exit(1)
-    else:
-        if now_rome.hour < 5:
-            target_date = (now_rome - timedelta(days=1)).date()
-            logger.info(
-                f"Esecuzione notturna (ore {now_rome.strftime('%H:%M')}): "
-                f"impostata data del giorno appena concluso ({target_date})."
-            )
-        else:
-            target_date = now_rome.date()
 
-    logger.info(f"Data di analisi: {target_date.strftime('%Y-%m-%d')}")
+        if args.sezione:
+            sezione = args.sezione
+        else:
+            if target_date == now_rome.date():
+                sezione = "oggi"
+            else:
+                sezione = "ieri"
+    else:
+        # Esecuzione standard mattutina (alle 05:00 di Roma):
+        # La giornata da archiviare è quella appena conclusa (ieri),
+        # presente per intero nella metà sinistra dei grafici CFR.
+        target_date = (now_rome - timedelta(days=1)).date()
+        sezione = args.sezione if args.sezione else "ieri"
+
+    # Verifica cron-guard per automazione GitHub Actions:
+    if args.cron_guard:
+        ora_minuti = now_rome.hour * 60 + now_rome.minute
+        # Finestra mattutina autorizzata: dalle 04:30 alle 08:30 ora italiana
+        if not (4 * 60 + 30 <= ora_minuti <= 8 * 60 + 30):
+            logger.info(
+                f"Controllo orario attivo: a Roma sono le {now_rome.strftime('%H:%M')} ({now_rome.tzname()}). "
+                "L'elaborazione mattutina è prevista tra le 04:30 e le 08:30. Uscita senza elaborazione."
+            )
+            sys.exit(0)
+
+        # Controllo idempotenza: se la giornata è già completa nell'archivio master, termina con successo
+        from src.config import DATA_DIR
+        master_csv = DATA_DIR / "archivio_completo.csv"
+        if master_csv.exists():
+            try:
+                import pandas as pd
+                df_chk = pd.read_csv(master_csv)
+                df_giorno = df_chk[df_chk["data"] == target_date.strftime("%Y-%m-%d")]
+                validi = df_giorno[df_giorno["stato_rilevamento"].isin(["OK", "COPIATO_DA_ORE_01", "COPIATO_DA_ORE_22"])]
+                if len(validi) >= 200:
+                    logger.info(
+                        f"I dati per il giorno {target_date} risultano già archiviati con successo "
+                        f"({len(validi)} rilevamenti validi). Nessuna nuova elaborazione necessaria."
+                    )
+                    sys.exit(0)
+            except Exception as e:
+                logger.warning(f"Controllo idempotenza non riuscito, procedo con l'estrazione: {e}")
+
+    logger.info(f"Data di analisi: {target_date.strftime('%Y-%m-%d')} | Sezione grafico: {sezione.upper()}")
 
     # Caricamento elenco stazioni
     if not STAZIONI_FILE.exists():
@@ -119,6 +149,7 @@ def main():
                 file_igro_path=igro_path,
                 data_riferimento=target_date,
                 rome_tz=rome_tz,
+                sezione=sezione,
             )
 
             # 3. Archiviazione file stazione dedicati (CSV e JSON)

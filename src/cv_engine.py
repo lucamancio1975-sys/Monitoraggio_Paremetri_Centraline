@@ -12,6 +12,7 @@ from src.config import (
     DY,
     VALORE_MAX_RH,
     MAPPA_ORE_OGGI,
+    MAPPA_ORE_IERI,
     TOLLERANZA_GRIGIO_LINEA,
     TOLLERANZA_GRIGIO_COLONNA,
     HSV_LOWER_BLUE,
@@ -26,6 +27,7 @@ def rileva_valore_massimo_temperatura(img_path: Path) -> float:
     contando le linee grigie orizzontali interne della griglia (colore 192, 192, 192).
     Ogni intervallo tra le linee corrisponde esattamente a 2.0 °C.
     """
+    img_path = Path(img_path)
     img = cv2.imread(str(img_path))
     if img is None:
         logger.warning(f"Impossibile aprire {img_path}. Uso fallback scala T=34.0°C")
@@ -126,26 +128,35 @@ def analizza_stazione_giornaliera(
     file_igro_path: Path,
     data_riferimento: datetime.date,
     rome_tz: pytz.BaseTzInfo,
+    sezione: str = "ieri",
 ) -> List[Dict[str, Any]]:
     """
     Estrae le 24 letture orarie (00:00 - 23:00) per la giornata indicata.
+    - Se sezione == 'ieri' (default mattutino): legge la metà sinistra del grafico
+      CFR Toscana (MAPPA_ORE_IERI). Per l'ora 00:00 (adiacente all'asse Y), assegna
+      di default il valore delle 01:00 (stato 'COPIATO_DA_ORE_01').
+    - Se sezione == 'oggi': legge la metà destra del grafico (MAPPA_ORE_OGGI).
     Gestisce automaticamente l'ora solare (CET) e l'ora legale (CEST)
     attraverso il fuso orario 'Europe/Rome'.
     """
+    file_termo_path = Path(file_termo_path)
+    file_igro_path = Path(file_igro_path)
     valore_max_t = rileva_valore_massimo_temperatura(file_termo_path)
+
+    mappa_ore = MAPPA_ORE_IERI if sezione == "ieri" else MAPPA_ORE_OGGI
 
     # Scansione per tutte le 24 ore della giornata
     raw_termo: Dict[int, Optional[int]] = {}
     raw_igro: Dict[int, Optional[int]] = {}
 
-    for h in sorted(MAPPA_ORE_OGGI.keys()):
-        x_px = MAPPA_ORE_OGGI[h]
+    for h in sorted(mappa_ore.keys()):
+        x_px = mappa_ore[h]
         raw_termo[h] = trova_pixel_blu_in_colonna(file_termo_path, x_px)
         raw_igro[h] = trova_pixel_blu_in_colonna(file_igro_path, x_px)
 
     records: List[Dict[str, Any]] = []
 
-    for h in sorted(MAPPA_ORE_OGGI.keys()):
+    for h in sorted(mappa_ore.keys()):
         # Costruzione del datetime locale con gestione dell'ora solare/legale
         naive_dt = datetime(
             data_riferimento.year,
@@ -195,7 +206,23 @@ def analizza_stazione_giornaliera(
             "stato_rilevamento": stato,
         })
 
-    # Gestione ritardo di pubblicazione del CFR Toscana (~75 minuti):
+    # Regola ore 00:00 per la sezione 'ieri' (mattina):
+    # Il pixel delle 00:00 (X=71) è adiacente all'asse verticale Y.
+    # Essendo notte (escursione termica/igrometrica minima tra 00:00 e 01:00),
+    # il dato delle 00:00 viene registrato di default identico a quello delle 01:00.
+    if sezione == "ieri":
+        rec_00 = next((r for r in records if r["ora"] == "00:00"), None)
+        rec_01 = next((r for r in records if r["ora"] == "01:00"), None)
+        if rec_00 and rec_01 and rec_01["temperatura_c"] is not None and rec_01["umidita_rh"] is not None:
+            rec_00["temperatura_c"] = rec_01["temperatura_c"]
+            rec_00["umidita_rh"] = rec_01["umidita_rh"]
+            rec_00["stato_rilevamento"] = "COPIATO_DA_ORE_01"
+            logger.debug(
+                f"Asse Y gestito: dato delle 00:00 ricopiato da ore 01:00 "
+                f"(T={rec_00['temperatura_c']}°C, RH={rec_00['umidita_rh']}%)"
+            )
+
+    # Gestione ritardo di pubblicazione del CFR Toscana (~75 minuti) per sezione 'oggi' (sera):
     # Alle 23:50 i grafici riportano dati fino a circa le 22:30.
     # Alle ore 23:00, se il dato non è ancora presente sul grafico,
     # viene ricopiato l'ultimo dato utile rilevato alle ore 22:00.

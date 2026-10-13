@@ -2,18 +2,17 @@ name: Aggiornamento Giornaliero Dati Meteo CFR Toscana
 
 on:
   schedule:
-    # Esecuzione principale alle 23:50 ora italiana (Europe/Rome)
-    # Gestione automatica di ora solare e ora legale
-    - cron: '50 23 * * *'
-      timezone: 'Europe/Rome'
-    # Esecuzione di riserva/recupero notturna alle 01:15 ora italiana (Europe/Rome)
-    # per garantire la continuità anche in caso di ritardi di coda su GitHub Actions
-    - cron: '15 1 * * *'
-      timezone: 'Europe/Rome'
+    # Esecuzione mattutina programmata alle 05:00 ora italiana (Europe/Rome):
+    # - Durante Ora Legale estiva (CEST = UTC+2): 03:00 UTC
+    # - Durante Ora Solare invernale (CET = UTC+1): 04:00 UTC
+    # Il controllo cron-guard integrato nello script assicura l'avvio autorizzato
+    # ed evita doppie elaborazioni grazie al controllo di idempotenza dell'archivio.
+    - cron: '0 3 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch:
     inputs:
       data_target:
-        description: 'Data di analisi specifica (formato YYYY-MM-DD). Lasciare vuoto per estrazione automatica.'
+        description: 'Data di analisi specifica (formato YYYY-MM-DD). Lasciare vuoto per estrazione automatica di ieri.'
         required: false
         default: ''
 

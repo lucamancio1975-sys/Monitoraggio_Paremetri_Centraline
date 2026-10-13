@@ -11,8 +11,8 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": 17.6,
-      "umidita_rh": 89.2,
+      "temperatura_c": 13.8,
+      "umidita_rh": 88.3,
       "stato_rilevamento": "OK"
     },
     {
@@ -22,8 +22,8 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": 17.9,
-      "umidita_rh": 83.7,
+      "temperatura_c": 14.2,
+      "umidita_rh": 89.8,
       "stato_rilevamento": "OK"
     },
     {
@@ -33,8 +33,8 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": 17.9,
-      "umidita_rh": 82.5,
+      "temperatura_c": 13.3,
+      "umidita_rh": 88.3,
       "stato_rilevamento": "OK"
     },
     {
@@ -44,8 +44,8 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": 17.7,
-      "umidita_rh": 82.5,
+      "temperatura_c": 12.4,
+      "umidita_rh": 90.2,
       "stato_rilevamento": "OK"
     },
     {
@@ -55,9 +55,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 12.4,
+      "umidita_rh": 91.4,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T05:00:00+02:00",
@@ -66,9 +66,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 12.5,
+      "umidita_rh": 91.1,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T06:00:00+02:00",
@@ -77,9 +77,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 11.8,
+      "umidita_rh": 92.3,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T07:00:00+02:00",
@@ -88,9 +88,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 11.9,
+      "umidita_rh": 90.5,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T08:00:00+02:00",
@@ -99,9 +99,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 15.3,
+      "umidita_rh": 92.3,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T09:00:00+02:00",
@@ -110,9 +110,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 18.9,
+      "umidita_rh": 84.3,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T10:00:00+02:00",
@@ -121,9 +121,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 21.1,
+      "umidita_rh": 78.5,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T11:00:00+02:00",
@@ -132,9 +132,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 22.7,
+      "umidita_rh": 72.6,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T12:00:00+02:00",
@@ -143,9 +143,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 24.2,
+      "umidita_rh": 64.0,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T13:00:00+02:00",
@@ -154,9 +154,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 25.6,
+      "umidita_rh": 60.3,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T14:00:00+02:00",
@@ -165,9 +165,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 25.8,
+      "umidita_rh": 57.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T15:00:00+02:00",
@@ -176,9 +176,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 24.3,
+      "umidita_rh": 64.3,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T16:00:00+02:00",
@@ -187,9 +187,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 23.3,
+      "umidita_rh": 69.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T17:00:00+02:00",
@@ -198,9 +198,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 22.7,
+      "umidita_rh": 70.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T18:00:00+02:00",
@@ -209,9 +209,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 20.2,
+      "umidita_rh": 78.5,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T19:00:00+02:00",
@@ -220,9 +220,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 18.8,
+      "umidita_rh": 81.8,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T20:00:00+02:00",
@@ -231,9 +231,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 17.9,
+      "umidita_rh": 85.5,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T21:00:00+02:00",
@@ -242,9 +242,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 16.5,
+      "umidita_rh": 86.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T22:00:00+02:00",
@@ -253,9 +253,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 16.6,
+      "umidita_rh": 88.3,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-11T23:00:00+02:00",
@@ -264,9 +264,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 16.5,
+      "umidita_rh": 89.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T00:00:00+02:00",
@@ -275,9 +275,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": 12.6,
-      "umidita_rh": 80.0,
-      "stato_rilevamento": "OK"
+      "temperatura_c": 17.9,
+      "umidita_rh": 83.7,
+      "stato_rilevamento": "COPIATO_DA_ORE_01"
     },
     {
       "timestamp": "2026-10-12T01:00:00+02:00",
@@ -286,8 +286,8 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": 11.9,
-      "umidita_rh": 81.2,
+      "temperatura_c": 17.9,
+      "umidita_rh": 83.7,
       "stato_rilevamento": "OK"
     },
     {
@@ -297,8 +297,8 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": 12.6,
-      "umidita_rh": 81.2,
+      "temperatura_c": 17.9,
+      "umidita_rh": 82.5,
       "stato_rilevamento": "OK"
     },
     {
@@ -308,8 +308,8 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": 12.8,
-      "umidita_rh": 80.6,
+      "temperatura_c": 17.7,
+      "umidita_rh": 82.5,
       "stato_rilevamento": "OK"
     },
     {
@@ -319,9 +319,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 17.7,
+      "umidita_rh": 82.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T05:00:00+02:00",
@@ -330,9 +330,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 17.6,
+      "umidita_rh": 82.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T06:00:00+02:00",
@@ -341,9 +341,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 17.6,
+      "umidita_rh": 82.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T07:00:00+02:00",
@@ -352,9 +352,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 16.9,
+      "umidita_rh": 83.4,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T08:00:00+02:00",
@@ -363,9 +363,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 18.0,
+      "umidita_rh": 82.5,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T09:00:00+02:00",
@@ -374,9 +374,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 20.8,
+      "umidita_rh": 74.5,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T10:00:00+02:00",
@@ -385,9 +385,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 23.3,
+      "umidita_rh": 65.8,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T11:00:00+02:00",
@@ -396,9 +396,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 24.1,
+      "umidita_rh": 63.4,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T12:00:00+02:00",
@@ -407,9 +407,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 25.5,
+      "umidita_rh": 54.5,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T13:00:00+02:00",
@@ -418,9 +418,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 24.8,
+      "umidita_rh": 57.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T14:00:00+02:00",
@@ -429,9 +429,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 25.8,
+      "umidita_rh": 49.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T15:00:00+02:00",
@@ -440,9 +440,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 24.8,
+      "umidita_rh": 54.8,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T16:00:00+02:00",
@@ -451,9 +451,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 24.5,
+      "umidita_rh": 49.8,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T17:00:00+02:00",
@@ -462,9 +462,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 22.9,
+      "umidita_rh": 51.7,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T18:00:00+02:00",
@@ -473,9 +473,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 20.2,
+      "umidita_rh": 55.1,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T19:00:00+02:00",
@@ -484,9 +484,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 19.0,
+      "umidita_rh": 60.9,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T20:00:00+02:00",
@@ -495,9 +495,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 18.7,
+      "umidita_rh": 61.8,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T21:00:00+02:00",
@@ -506,9 +506,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 17.7,
+      "umidita_rh": 65.2,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T22:00:00+02:00",
@@ -517,9 +517,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 16.5,
+      "umidita_rh": 67.1,
+      "stato_rilevamento": "OK"
     },
     {
       "timestamp": "2026-10-12T23:00:00+02:00",
@@ -528,9 +528,9 @@
       "fuso_orario": "CEST",
       "stazione": "Rispescia",
       "id_stazione": "TOS11000005",
-      "temperatura_c": null,
-      "umidita_rh": null,
-      "stato_rilevamento": "DATO_ASSENTE"
+      "temperatura_c": 14.3,
+      "umidita_rh": 74.5,
+      "stato_rilevamento": "OK"
     }
   ]
 }
