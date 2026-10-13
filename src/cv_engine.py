@@ -26,6 +26,11 @@ def rileva_valore_massimo_temperatura(img_path: Path) -> float:
     Rileva automaticamente il valore massimo della scala della temperatura
     contando le linee grigie orizzontali interne della griglia (colore 192, 192, 192).
     Ogni intervallo tra le linee corrisponde esattamente a 2.0 °C.
+
+    Per evitare che la curva blu dei dati mascheri una linea grigia su una singola
+    colonna (difetto dell'app di partenza a X=200), la scansione viene eseguita su
+    un campionamento di 6 colonne distribuite (150, 180, 210, 240, 270, 300).
+    Il massimo tra i conteggi elimina ogni occlusione accidentale della traccia blu.
     """
     img_path = Path(img_path)
     img = cv2.imread(str(img_path))
@@ -33,29 +38,39 @@ def rileva_valore_massimo_temperatura(img_path: Path) -> float:
         logger.warning(f"Impossibile aprire {img_path}. Uso fallback scala T=34.0°C")
         return 34.0
 
-    x = 200  # Colonna interna alla griglia, esente da etichette o bordi
-    linee_grigie = 0
-    in_linea = False
+    colonne_test = [150, 180, 210, 240, 270, 300]
+    conteggi_linee = []
 
-    # Scansione dell'intervallo verticale escludendo i bordi esterni
-    for y in range(55, 370):
-        b, g, r = img[y, x]
-        # Grigio griglia CFR Toscana standard: [192, 192, 192]
-        if (
-            abs(int(b) - 192) < TOLLERANZA_GRIGIO_LINEA
-            and abs(int(g) - 192) < TOLLERANZA_GRIGIO_LINEA
-            and abs(int(r) - 192) < TOLLERANZA_GRIGIO_LINEA
-        ):
-            if not in_linea:
-                linee_grigie += 1
-                in_linea = True
+    for x in colonne_test:
+        if x >= img.shape[1]:
+            continue
+        linee_grigie = 0
+        in_linea = False
+        for y in range(55, 370):
+            b, g, r = img[y, x]
+            if (
+                abs(int(b) - 192) < TOLLERANZA_GRIGIO_LINEA
+                and abs(int(g) - 192) < TOLLERANZA_GRIGIO_LINEA
+                and abs(int(r) - 192) < TOLLERANZA_GRIGIO_LINEA
+            ):
+                if not in_linea:
+                    linee_grigie += 1
+                    in_linea = True
+            else:
+                in_linea = False
+        if linee_grigie > 0:
+            conteggi_linee.append(linee_grigie)
+
+    if conteggi_linee:
+        max_linee = max(conteggi_linee)
+        val_max = float((max_linee + 1) * 2.0)
+        # Controllo di plausibilità per scale CFR Toscana (tipicamente tra 16°C e 48°C)
+        if 16.0 <= val_max <= 48.0:
+            logger.debug(f"{img_path.name}: rilevate {max_linee} linee grigie -> Scala max T: {val_max}°C")
+            return val_max
         else:
-            in_linea = False
-
-    if linee_grigie > 0:
-        val_max = float((linee_grigie + 1) * 2.0)
-        logger.debug(f"{img_path.name}: rilevate {linee_grigie} linee grigie -> Scala max T: {val_max}°C")
-        return val_max
+            logger.warning(f"{img_path.name}: scala rilevata anomala ({val_max}°C). Uso fallback 34.0°C")
+            return 34.0
 
     return 34.0  # Fallback standard estivo/autunnale
 
@@ -166,7 +181,14 @@ def analizza_stazione_giornaliera(
             0,
             0
         )
-        local_dt = rome_tz.localize(naive_dt, is_dst=None)
+        try:
+            local_dt = rome_tz.localize(naive_dt, is_dst=None)
+        except pytz.AmbiguousTimeError:
+            # Giorno di passaggio a ora solare (autunno): disambigua con is_dst=False
+            local_dt = rome_tz.localize(naive_dt, is_dst=False)
+        except pytz.NonExistentTimeError:
+            # Giorno di passaggio a ora legale (primavera): disambigua con is_dst=True
+            local_dt = rome_tz.localize(naive_dt, is_dst=True)
         
         # Identificazione se in quel momento vige CET (solare) o CEST (legale)
         fuso_codice = local_dt.tzname()  # 'CET' (+0100) oppure 'CEST' (+0200)

@@ -275,7 +275,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 15.1,
+      "temperatura_c": 16.3,
       "umidita_rh": 91.4,
       "stato_rilevamento": "COPIATO_DA_ORE_01"
     },
@@ -286,7 +286,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 15.1,
+      "temperatura_c": 16.3,
       "umidita_rh": 91.4,
       "stato_rilevamento": "OK"
     },
@@ -297,7 +297,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 15.0,
+      "temperatura_c": 16.2,
       "umidita_rh": 90.2,
       "stato_rilevamento": "OK"
     },
@@ -308,7 +308,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 15.0,
+      "temperatura_c": 16.2,
       "umidita_rh": 87.4,
       "stato_rilevamento": "OK"
     },
@@ -319,7 +319,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 14.9,
+      "temperatura_c": 16.0,
       "umidita_rh": 86.2,
       "stato_rilevamento": "OK"
     },
@@ -330,7 +330,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 14.7,
+      "temperatura_c": 15.9,
       "umidita_rh": 86.2,
       "stato_rilevamento": "OK"
     },
@@ -341,7 +341,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 14.7,
+      "temperatura_c": 15.9,
       "umidita_rh": 85.2,
       "stato_rilevamento": "OK"
     },
@@ -352,7 +352,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 14.6,
+      "temperatura_c": 15.7,
       "umidita_rh": 86.2,
       "stato_rilevamento": "OK"
     },
@@ -363,7 +363,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 15.4,
+      "temperatura_c": 16.5,
       "umidita_rh": 86.2,
       "stato_rilevamento": "OK"
     },
@@ -374,7 +374,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 17.2,
+      "temperatura_c": 18.5,
       "umidita_rh": 81.8,
       "stato_rilevamento": "OK"
     },
@@ -385,7 +385,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 19.6,
+      "temperatura_c": 21.1,
       "umidita_rh": 68.3,
       "stato_rilevamento": "OK"
     },
@@ -396,7 +396,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 19.8,
+      "temperatura_c": 21.4,
       "umidita_rh": 62.8,
       "stato_rilevamento": "OK"
     },
@@ -407,7 +407,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 20.4,
+      "temperatura_c": 22.0,
       "umidita_rh": 60.3,
       "stato_rilevamento": "OK"
     },
@@ -418,7 +418,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 20.6,
+      "temperatura_c": 22.2,
       "umidita_rh": 57.8,
       "stato_rilevamento": "OK"
     },
@@ -429,7 +429,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 20.2,
+      "temperatura_c": 21.7,
       "umidita_rh": 58.2,
       "stato_rilevamento": "OK"
     },
@@ -440,7 +440,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 20.6,
+      "temperatura_c": 22.2,
       "umidita_rh": 57.2,
       "stato_rilevamento": "OK"
     },
@@ -451,7 +451,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 19.2,
+      "temperatura_c": 20.7,
       "umidita_rh": 59.7,
       "stato_rilevamento": "OK"
     },
@@ -462,7 +462,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 17.9,
+      "temperatura_c": 19.3,
       "umidita_rh": 54.2,
       "stato_rilevamento": "OK"
     },
@@ -473,7 +473,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 16.3,
+      "temperatura_c": 17.6,
       "umidita_rh": 61.5,
       "stato_rilevamento": "OK"
     },
@@ -484,7 +484,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 15.6,
+      "temperatura_c": 16.8,
       "umidita_rh": 67.1,
       "stato_rilevamento": "OK"
     },
@@ -495,7 +495,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 14.7,
+      "temperatura_c": 15.9,
       "umidita_rh": 70.2,
       "stato_rilevamento": "OK"
     },
@@ -506,7 +506,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 14.1,
+      "temperatura_c": 15.2,
       "umidita_rh": 72.3,
       "stato_rilevamento": "OK"
     },
@@ -517,7 +517,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 13.8,
+      "temperatura_c": 14.8,
       "umidita_rh": 74.2,
       "stato_rilevamento": "OK"
     },
@@ -528,7 +528,7 @@
       "fuso_orario": "CEST",
       "stazione": "Pitigliano",
       "id_stazione": "TOS11000014",
-      "temperatura_c": 13.5,
+      "temperatura_c": 14.6,
       "umidita_rh": 73.2,
       "stato_rilevamento": "OK"
     }

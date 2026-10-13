@@ -53,6 +53,7 @@ def aggiorna_archivio_stazione(
     elif csv_path.exists():
         try:
             df_old = pd.read_csv(csv_path)
+            df_old = df_old.where(pd.notnull(df_old), None)
             for _, row in df_old.iterrows():
                 rec = row.to_dict()
                 ts = str(rec.get("timestamp"))
@@ -62,6 +63,8 @@ def aggiorna_archivio_stazione(
 
     # 2. Inserimento/Aggiornamento nuovi record
     for r in nuovi_records:
+        t_c = None if pd.isna(r.get("temperatura_c")) else r.get("temperatura_c")
+        rh = None if pd.isna(r.get("umidita_rh")) else r.get("umidita_rh")
         rec_completo = {
             "timestamp": r["timestamp"],
             "data": r["data"],
@@ -69,8 +72,8 @@ def aggiorna_archivio_stazione(
             "fuso_orario": r["fuso_orario"],
             "stazione": nome,
             "id_stazione": st_id,
-            "temperatura_c": r["temperatura_c"],
-            "umidita_rh": r["umidita_rh"],
+            "temperatura_c": t_c,
+            "umidita_rh": rh,
             "stato_rilevamento": r["stato_rilevamento"],
         }
         database_records[r["timestamp"]] = rec_completo
@@ -116,6 +119,7 @@ def aggiorna_archivio_cumulativo(tutti_i_records: List[Dict[str, Any]]):
     if master_csv.exists():
         try:
             df_old = pd.read_csv(master_csv)
+            df_old = df_old.where(pd.notnull(df_old), None)
             for _, row in df_old.iterrows():
                 rec = row.to_dict()
                 chiave = f"{rec.get('id_stazione')}_{rec.get('timestamp')}"
@@ -124,8 +128,13 @@ def aggiorna_archivio_cumulativo(tutti_i_records: List[Dict[str, Any]]):
             logger.warning(f"Errore lettura master CSV: {e}")
 
     for r in tutti_i_records:
-        chiave = f"{r['id_stazione']}_{r['timestamp']}"
-        mappa_master[chiave] = r
+        rec_clean = dict(r)
+        if pd.isna(rec_clean.get("temperatura_c")):
+            rec_clean["temperatura_c"] = None
+        if pd.isna(rec_clean.get("umidita_rh")):
+            rec_clean["umidita_rh"] = None
+        chiave = f"{rec_clean['id_stazione']}_{rec_clean['timestamp']}"
+        mappa_master[chiave] = rec_clean
 
     lista_ordinata = sorted(
         mappa_master.values(),

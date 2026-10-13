@@ -182,6 +182,10 @@ def main():
         logger.warning(f"Attenzione: {stazioni_fallite} stazioni non elaborate per errori di rete o parsing.")
     logger.info("=" * 65)
 
+    if stazioni_successo == 0:
+        logger.critical("Nessuna stazione elaborata con successo (possibile blackout portale CFR). Uscita con errore.")
+        sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

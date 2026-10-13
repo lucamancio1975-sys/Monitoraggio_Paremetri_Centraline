@@ -57,6 +57,7 @@ jobs:
           git add dati/
           if [ -n "$(git status --porcelain dati/)" ]; then
             git commit -m "Aggiornamento automatico dati meteo [skip ci] - $(date +'%Y-%m-%d')"
+            git pull --rebase origin main
             git push origin main
           else
             echo "Nessuna variazione rilevata nei dati."

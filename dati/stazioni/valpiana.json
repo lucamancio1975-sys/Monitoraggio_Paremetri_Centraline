@@ -275,7 +275,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 16.2,
+      "temperatura_c": 17.5,
       "umidita_rh": 81.2,
       "stato_rilevamento": "COPIATO_DA_ORE_01"
     },
@@ -286,7 +286,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 16.2,
+      "temperatura_c": 17.5,
       "umidita_rh": 81.2,
       "stato_rilevamento": "OK"
     },
@@ -297,7 +297,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 16.2,
+      "temperatura_c": 17.4,
       "umidita_rh": 80.3,
       "stato_rilevamento": "OK"
     },
@@ -308,7 +308,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 16.1,
+      "temperatura_c": 17.3,
       "umidita_rh": 81.2,
       "stato_rilevamento": "OK"
     },
@@ -319,7 +319,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 16.2,
+      "temperatura_c": 17.4,
       "umidita_rh": 81.2,
       "stato_rilevamento": "OK"
     },
@@ -330,7 +330,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 15.9,
+      "temperatura_c": 17.1,
       "umidita_rh": 82.2,
       "stato_rilevamento": "OK"
     },
@@ -341,7 +341,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 15.8,
+      "temperatura_c": 17.1,
       "umidita_rh": 82.2,
       "stato_rilevamento": "OK"
     },
@@ -352,7 +352,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 15.8,
+      "temperatura_c": 17.1,
       "umidita_rh": 83.4,
       "stato_rilevamento": "OK"
     },
@@ -363,7 +363,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 16.2,
+      "temperatura_c": 17.4,
       "umidita_rh": 84.3,
       "stato_rilevamento": "OK"
     },
@@ -374,7 +374,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 17.8,
+      "temperatura_c": 19.1,
       "umidita_rh": 79.4,
       "stato_rilevamento": "OK"
     },
@@ -385,7 +385,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 19.5,
+      "temperatura_c": 21.0,
       "umidita_rh": 70.8,
       "stato_rilevamento": "OK"
     },
@@ -396,7 +396,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 20.3,
+      "temperatura_c": 21.9,
       "umidita_rh": 64.6,
       "stato_rilevamento": "OK"
     },
@@ -407,7 +407,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 21.3,
+      "temperatura_c": 22.9,
       "umidita_rh": 58.8,
       "stato_rilevamento": "OK"
     },
@@ -418,7 +418,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 21.7,
+      "temperatura_c": 23.3,
       "umidita_rh": 55.4,
       "stato_rilevamento": "OK"
     },
@@ -429,7 +429,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 21.9,
+      "temperatura_c": 23.6,
       "umidita_rh": 56.3,
       "stato_rilevamento": "OK"
     },
@@ -440,7 +440,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 21.4,
+      "temperatura_c": 23.0,
       "umidita_rh": 54.2,
       "stato_rilevamento": "OK"
     },
@@ -451,7 +451,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 20.8,
+      "temperatura_c": 22.4,
       "umidita_rh": 53.5,
       "stato_rilevamento": "OK"
     },
@@ -462,7 +462,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 19.3,
+      "temperatura_c": 20.8,
       "umidita_rh": 60.3,
       "stato_rilevamento": "OK"
     },
@@ -473,7 +473,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 17.8,
+      "temperatura_c": 19.1,
       "umidita_rh": 62.2,
       "stato_rilevamento": "OK"
     },
@@ -484,7 +484,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 16.6,
+      "temperatura_c": 17.9,
       "umidita_rh": 67.1,
       "stato_rilevamento": "OK"
     },
@@ -495,7 +495,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 15.2,
+      "temperatura_c": 16.4,
       "umidita_rh": 71.4,
       "stato_rilevamento": "OK"
     },
@@ -506,7 +506,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 14.3,
+      "temperatura_c": 15.4,
       "umidita_rh": 74.2,
       "stato_rilevamento": "OK"
     },
@@ -517,7 +517,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 13.4,
+      "temperatura_c": 14.5,
       "umidita_rh": 76.3,
       "stato_rilevamento": "OK"
     },
@@ -528,7 +528,7 @@
       "fuso_orario": "CEST",
       "stazione": "Valpiana",
       "id_stazione": "TOS11000041",
-      "temperatura_c": 12.8,
+      "temperatura_c": 13.8,
       "umidita_rh": 73.2,
       "stato_rilevamento": "OK"
     }

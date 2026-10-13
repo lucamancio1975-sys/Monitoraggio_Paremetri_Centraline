@@ -1,4 +1,5 @@
 import logging
+import time
 import requests
 from pathlib import Path
 from src.config import CFR_HEADERS, DOWNLOAD_TIMEOUT, TEMP_DIR
@@ -8,10 +9,10 @@ logger = logging.getLogger("CFRCollector")
 def scarica_immagine(url: str, dest_path: Path, max_tentativi: int = 3) -> bool:
     """
     Scarica l'immagine PNG del grafico dal server del CFR Toscana.
-    Include meccanismo di retry esponenziale per proteggere da interruzioni di rete.
+    Include meccanismo di retry esponenziale con attesa progressiva per proteggere da interruzioni di rete.
     """
     dest_path.parent.mkdir(parents=True, exist_ok=True)
-    
+
     for tentativo in range(1, max_tentativi + 1):
         try:
             response = requests.get(url, headers=CFR_HEADERS, timeout=DOWNLOAD_TIMEOUT)
@@ -27,7 +28,12 @@ def scarica_immagine(url: str, dest_path: Path, max_tentativi: int = 3) -> bool:
                 )
         except Exception as e:
             logger.warning(f"Errore download tentativo {tentativo}/{max_tentativi}: {e}")
-            
+
+        if tentativo < max_tentativi:
+            pausa = tentativo * 2
+            logger.info(f"Attesa di {pausa}s prima del nuovo tentativo di download...")
+            time.sleep(pausa)
+
     return False
 
 def pulisci_cartella_temp(cartella: Path = TEMP_DIR):
