@@ -1,8 +1,8 @@
 {
   "stazione": "Pitigliano",
   "id_stazione": "TOS11000014",
-  "totale_rilevamenti": 96,
-  "ultimo_aggiornamento": "2026-10-14T23:00:00+02:00",
+  "totale_rilevamenti": 120,
+  "ultimo_aggiornamento": "2026-10-15T23:00:00+02:00",
   "rilevamenti": [
     {
       "timestamp": "2026-10-11T00:00:00+02:00",
@@ -1058,6 +1058,270 @@
       "id_stazione": "TOS11000014",
       "temperatura_c": 16.0,
       "umidita_rh": 68.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T00:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "00:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 15.4,
+      "umidita_rh": 66.5,
+      "stato_rilevamento": "COPIATO_DA_ORE_01"
+    },
+    {
+      "timestamp": "2026-10-15T01:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "01:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 15.4,
+      "umidita_rh": 66.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T02:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "02:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 14.4,
+      "umidita_rh": 68.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T03:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "03:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 14.4,
+      "umidita_rh": 70.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T04:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "04:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 13.3,
+      "umidita_rh": 72.0,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T05:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "05:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 12.7,
+      "umidita_rh": 74.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T06:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "06:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 12.6,
+      "umidita_rh": 75.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T07:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "07:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 12.5,
+      "umidita_rh": 79.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T08:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "08:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 15.7,
+      "umidita_rh": 73.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T09:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "09:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 19.0,
+      "umidita_rh": 67.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T10:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "10:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 21.4,
+      "umidita_rh": 57.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T11:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "11:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 22.5,
+      "umidita_rh": 51.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T12:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "12:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 23.9,
+      "umidita_rh": 48.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T13:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "13:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 25.0,
+      "umidita_rh": 45.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T14:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "14:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 25.5,
+      "umidita_rh": 43.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T15:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "15:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 25.5,
+      "umidita_rh": 44.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T16:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "16:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 24.8,
+      "umidita_rh": 49.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T17:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "17:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 23.3,
+      "umidita_rh": 59.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T18:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "18:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 20.9,
+      "umidita_rh": 67.1,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T19:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "19:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 18.6,
+      "umidita_rh": 68.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T20:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "20:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 16.4,
+      "umidita_rh": 78.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T21:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "21:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 14.3,
+      "umidita_rh": 83.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T22:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "22:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 13.1,
+      "umidita_rh": 86.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-15T23:00:00+02:00",
+      "data": "2026-10-15",
+      "ora": "23:00",
+      "fuso_orario": "CEST",
+      "stazione": "Pitigliano",
+      "id_stazione": "TOS11000014",
+      "temperatura_c": 12.8,
+      "umidita_rh": 87.4,
       "stato_rilevamento": "OK"
     }
   ]
