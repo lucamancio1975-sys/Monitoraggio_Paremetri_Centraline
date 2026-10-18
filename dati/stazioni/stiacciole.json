@@ -1,8 +1,8 @@
 {
   "stazione": "Stiacciole",
   "id_stazione": "TOS11000042",
-  "totale_rilevamenti": 144,
-  "ultimo_aggiornamento": "2026-10-16T23:00:00+02:00",
+  "totale_rilevamenti": 168,
+  "ultimo_aggiornamento": "2026-10-17T23:00:00+02:00",
   "rilevamenti": [
     {
       "timestamp": "2026-10-11T00:00:00+02:00",
@@ -1586,6 +1586,270 @@
       "id_stazione": "TOS11000042",
       "temperatura_c": 16.2,
       "umidita_rh": 83.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T00:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "00:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 14.5,
+      "umidita_rh": 88.3,
+      "stato_rilevamento": "COPIATO_DA_ORE_01"
+    },
+    {
+      "timestamp": "2026-10-17T01:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "01:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 14.5,
+      "umidita_rh": 88.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T02:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "02:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 13.7,
+      "umidita_rh": 89.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T03:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "03:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 13.3,
+      "umidita_rh": 90.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T04:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "04:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 12.9,
+      "umidita_rh": 91.1,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T05:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "05:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 12.4,
+      "umidita_rh": 91.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T06:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "06:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 12.1,
+      "umidita_rh": 91.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T07:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "07:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 12.1,
+      "umidita_rh": 92.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T08:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "08:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 13.1,
+      "umidita_rh": 92.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T09:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "09:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 17.1,
+      "umidita_rh": 90.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T10:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "10:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 21.2,
+      "umidita_rh": 72.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T11:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "11:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 21.9,
+      "umidita_rh": 64.0,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T12:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "12:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 24.3,
+      "umidita_rh": 59.7,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T13:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "13:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 24.8,
+      "umidita_rh": 55.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T14:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "14:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 24.8,
+      "umidita_rh": 54.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T15:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "15:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 23.9,
+      "umidita_rh": 62.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T16:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "16:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 22.8,
+      "umidita_rh": 69.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T17:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "17:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 21.7,
+      "umidita_rh": 73.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T18:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "18:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 20.0,
+      "umidita_rh": 79.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T19:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "19:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 19.1,
+      "umidita_rh": 81.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T20:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "20:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 18.3,
+      "umidita_rh": 84.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T21:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "21:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 17.1,
+      "umidita_rh": 86.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T22:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "22:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 15.8,
+      "umidita_rh": 88.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-17T23:00:00+02:00",
+      "data": "2026-10-17",
+      "ora": "23:00",
+      "fuso_orario": "CEST",
+      "stazione": "Stiacciole",
+      "id_stazione": "TOS11000042",
+      "temperatura_c": 15.6,
+      "umidita_rh": 89.2,
       "stato_rilevamento": "OK"
     }
   ]
