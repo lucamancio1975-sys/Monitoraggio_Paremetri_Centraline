@@ -1,8 +1,8 @@
 {
   "stazione": "Follonica",
   "id_stazione": "TOS03002459",
-  "totale_rilevamenti": 216,
-  "ultimo_aggiornamento": "2026-10-19T23:00:00+02:00",
+  "totale_rilevamenti": 240,
+  "ultimo_aggiornamento": "2026-10-20T23:00:00+02:00",
   "rilevamenti": [
     {
       "timestamp": "2026-10-11T00:00:00+02:00",
@@ -2379,6 +2379,270 @@
       "temperatura_c": null,
       "umidita_rh": null,
       "stato_rilevamento": "DATO_ASSENTE"
+    },
+    {
+      "timestamp": "2026-10-20T00:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "00:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 16.1,
+      "umidita_rh": 95.4,
+      "stato_rilevamento": "COPIATO_DA_ORE_01"
+    },
+    {
+      "timestamp": "2026-10-20T01:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "01:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 16.1,
+      "umidita_rh": 95.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T02:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "02:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 16.8,
+      "umidita_rh": 94.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T03:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "03:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 16.3,
+      "umidita_rh": 93.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T04:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "04:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 15.8,
+      "umidita_rh": 93.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T05:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "05:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 16.0,
+      "umidita_rh": 93.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T06:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "06:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 16.2,
+      "umidita_rh": 90.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T07:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "07:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 16.2,
+      "umidita_rh": 91.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T08:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "08:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 18.7,
+      "umidita_rh": 85.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T09:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "09:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 20.2,
+      "umidita_rh": 76.9,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T10:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "10:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 21.8,
+      "umidita_rh": 72.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T11:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "11:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 22.1,
+      "umidita_rh": 72.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T12:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "12:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 22.8,
+      "umidita_rh": 73.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T13:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "13:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": null,
+      "umidita_rh": 77.2,
+      "stato_rilevamento": "DATO_TERMO_ASSENTE"
+    },
+    {
+      "timestamp": "2026-10-20T14:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "14:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": null,
+      "umidita_rh": 77.2,
+      "stato_rilevamento": "DATO_TERMO_ASSENTE"
+    },
+    {
+      "timestamp": "2026-10-20T15:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "15:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 21.6,
+      "umidita_rh": 80.9,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T16:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "16:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 22.2,
+      "umidita_rh": 74.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T17:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "17:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 22.2,
+      "umidita_rh": 74.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T18:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "18:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 22.2,
+      "umidita_rh": 76.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T19:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "19:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 22.1,
+      "umidita_rh": 77.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T20:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "20:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 18.9,
+      "umidita_rh": 89.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T21:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "21:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 17.0,
+      "umidita_rh": 96.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T22:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "22:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 17.4,
+      "umidita_rh": 94.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-20T23:00:00+02:00",
+      "data": "2026-10-20",
+      "ora": "23:00",
+      "fuso_orario": "CEST",
+      "stazione": "Follonica",
+      "id_stazione": "TOS03002459",
+      "temperatura_c": 17.0,
+      "umidita_rh": 93.2,
+      "stato_rilevamento": "OK"
     }
   ]
 }
