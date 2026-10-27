@@ -1,8 +1,8 @@
 {
   "stazione": "Valpiana",
   "id_stazione": "TOS11000041",
-  "totale_rilevamenti": 360,
-  "ultimo_aggiornamento": "2026-10-25T23:00:00+01:00",
+  "totale_rilevamenti": 384,
+  "ultimo_aggiornamento": "2026-10-26T23:00:00+01:00",
   "rilevamenti": [
     {
       "timestamp": "2026-10-11T00:00:00+02:00",
@@ -3962,6 +3962,270 @@
       "id_stazione": "TOS11000041",
       "temperatura_c": 14.4,
       "umidita_rh": 84.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T00:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "00:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 13.8,
+      "umidita_rh": 88.0,
+      "stato_rilevamento": "COPIATO_DA_ORE_01"
+    },
+    {
+      "timestamp": "2026-10-26T01:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "01:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 13.8,
+      "umidita_rh": 88.0,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T02:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "02:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 14.0,
+      "umidita_rh": 87.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T03:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "03:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 14.2,
+      "umidita_rh": 87.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T04:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "04:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 14.5,
+      "umidita_rh": 85.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T05:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "05:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 14.2,
+      "umidita_rh": 87.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T06:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "06:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 14.4,
+      "umidita_rh": 84.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T07:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "07:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 14.2,
+      "umidita_rh": 87.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T08:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "08:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 14.8,
+      "umidita_rh": 85.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T09:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "09:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 17.4,
+      "umidita_rh": 76.9,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T10:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "10:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 18.5,
+      "umidita_rh": 76.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T11:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "11:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 20.7,
+      "umidita_rh": 68.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T12:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "12:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 21.0,
+      "umidita_rh": 66.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T13:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "13:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 21.6,
+      "umidita_rh": 60.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T14:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "14:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 22.0,
+      "umidita_rh": 59.7,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T15:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "15:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 20.7,
+      "umidita_rh": 67.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T16:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "16:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 19.6,
+      "umidita_rh": 72.0,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T17:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "17:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 18.9,
+      "umidita_rh": 73.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T18:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "18:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 17.4,
+      "umidita_rh": 78.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T19:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "19:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 16.7,
+      "umidita_rh": 82.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T20:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "20:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 16.5,
+      "umidita_rh": 77.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T21:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "21:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 15.7,
+      "umidita_rh": 77.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T22:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "22:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 14.5,
+      "umidita_rh": 80.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-26T23:00:00+01:00",
+      "data": "2026-10-26",
+      "ora": "23:00",
+      "fuso_orario": "CET",
+      "stazione": "Valpiana",
+      "id_stazione": "TOS11000041",
+      "temperatura_c": 12.0,
+      "umidita_rh": 88.3,
       "stato_rilevamento": "OK"
     }
   ]
