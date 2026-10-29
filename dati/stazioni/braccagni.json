@@ -1,8 +1,8 @@
 {
   "stazione": "Braccagni",
   "id_stazione": "TOS11000008",
-  "totale_rilevamenti": 408,
-  "ultimo_aggiornamento": "2026-10-27T23:00:00+01:00",
+  "totale_rilevamenti": 432,
+  "ultimo_aggiornamento": "2026-10-28T23:00:00+01:00",
   "rilevamenti": [
     {
       "timestamp": "2026-10-11T00:00:00+02:00",
@@ -4490,6 +4490,270 @@
       "id_stazione": "TOS11000008",
       "temperatura_c": 14.6,
       "umidita_rh": 76.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T00:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "00:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 13.3,
+      "umidita_rh": 79.4,
+      "stato_rilevamento": "COPIATO_DA_ORE_01"
+    },
+    {
+      "timestamp": "2026-10-28T01:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "01:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 13.3,
+      "umidita_rh": 79.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T02:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "02:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 12.4,
+      "umidita_rh": 80.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T03:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "03:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 13.1,
+      "umidita_rh": 77.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T04:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "04:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 13.4,
+      "umidita_rh": 75.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T05:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "05:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 13.9,
+      "umidita_rh": 72.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T06:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "06:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 13.6,
+      "umidita_rh": 72.0,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T07:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "07:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 14.2,
+      "umidita_rh": 73.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T08:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "08:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 15.2,
+      "umidita_rh": 73.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T09:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "09:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 16.1,
+      "umidita_rh": 72.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T10:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "10:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 16.8,
+      "umidita_rh": 70.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T11:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "11:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 18.6,
+      "umidita_rh": 62.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T12:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "12:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 19.5,
+      "umidita_rh": 53.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T13:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "13:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 19.6,
+      "umidita_rh": 54.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T14:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "14:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 19.5,
+      "umidita_rh": 55.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T15:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "15:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 19.8,
+      "umidita_rh": 58.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T16:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "16:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 19.1,
+      "umidita_rh": 62.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T17:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "17:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 18.5,
+      "umidita_rh": 64.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T18:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "18:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 14.9,
+      "umidita_rh": 73.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T19:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "19:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 13.6,
+      "umidita_rh": 80.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T20:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "20:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 11.1,
+      "umidita_rh": 81.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T21:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "21:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 10.3,
+      "umidita_rh": 85.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T22:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "22:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 9.3,
+      "umidita_rh": 88.0,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-10-28T23:00:00+01:00",
+      "data": "2026-10-28",
+      "ora": "23:00",
+      "fuso_orario": "CET",
+      "stazione": "Braccagni",
+      "id_stazione": "TOS11000008",
+      "temperatura_c": 9.4,
+      "umidita_rh": 89.2,
       "stato_rilevamento": "OK"
     }
   ]
