@@ -1,8 +1,8 @@
 {
   "stazione": "Manciano",
   "id_stazione": "TOS03003079",
-  "totale_rilevamenti": 648,
-  "ultimo_aggiornamento": "2026-11-07T23:00:00+01:00",
+  "totale_rilevamenti": 672,
+  "ultimo_aggiornamento": "2026-11-08T23:00:00+01:00",
   "rilevamenti": [
     {
       "timestamp": "2026-10-11T00:00:00+02:00",
@@ -7130,6 +7130,270 @@
       "id_stazione": "TOS03003079",
       "temperatura_c": 10.4,
       "umidita_rh": 90.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T00:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "00:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 8.8,
+      "umidita_rh": 93.5,
+      "stato_rilevamento": "COPIATO_DA_ORE_01"
+    },
+    {
+      "timestamp": "2026-11-08T01:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "01:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 8.8,
+      "umidita_rh": 93.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T02:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "02:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 9.1,
+      "umidita_rh": 91.7,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T03:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "03:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 9.3,
+      "umidita_rh": 90.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T04:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "04:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 9.6,
+      "umidita_rh": 88.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T05:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "05:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 9.3,
+      "umidita_rh": 89.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T06:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "06:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 8.9,
+      "umidita_rh": 91.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T07:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "07:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 9.1,
+      "umidita_rh": 92.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T08:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "08:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 8.9,
+      "umidita_rh": 89.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T09:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "09:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 12.3,
+      "umidita_rh": 84.9,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T10:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "10:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 12.5,
+      "umidita_rh": 83.7,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T11:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "11:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 15.3,
+      "umidita_rh": 78.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T12:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "12:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 13.8,
+      "umidita_rh": 78.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T13:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "13:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 15.2,
+      "umidita_rh": 76.9,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T14:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "14:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 14.1,
+      "umidita_rh": 83.1,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T15:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "15:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 14.5,
+      "umidita_rh": 81.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T16:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "16:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 12.7,
+      "umidita_rh": 84.9,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T17:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "17:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 12.6,
+      "umidita_rh": 89.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T18:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "18:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 12.2,
+      "umidita_rh": 92.9,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T19:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "19:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 12.0,
+      "umidita_rh": 90.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T20:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "20:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 12.0,
+      "umidita_rh": 91.1,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T21:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "21:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 11.9,
+      "umidita_rh": 88.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T22:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "22:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 11.6,
+      "umidita_rh": 89.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-08T23:00:00+01:00",
+      "data": "2026-11-08",
+      "ora": "23:00",
+      "fuso_orario": "CET",
+      "stazione": "Manciano",
+      "id_stazione": "TOS03003079",
+      "temperatura_c": 11.8,
+      "umidita_rh": 91.4,
       "stato_rilevamento": "OK"
     }
   ]
