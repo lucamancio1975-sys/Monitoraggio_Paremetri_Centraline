@@ -1,8 +1,8 @@
 {
   "stazione": "Castiglion Fiorentino",
   "id_stazione": "TOS11000038",
-  "totale_rilevamenti": 792,
-  "ultimo_aggiornamento": "2026-11-13T23:00:00+01:00",
+  "totale_rilevamenti": 816,
+  "ultimo_aggiornamento": "2026-11-14T23:00:00+01:00",
   "rilevamenti": [
     {
       "timestamp": "2026-10-11T00:00:00+02:00",
@@ -8714,6 +8714,270 @@
       "id_stazione": "TOS11000038",
       "temperatura_c": 14.2,
       "umidita_rh": 80.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T00:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "00:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 13.1,
+      "umidita_rh": 82.2,
+      "stato_rilevamento": "COPIATO_DA_ORE_01"
+    },
+    {
+      "timestamp": "2026-11-14T01:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "01:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 13.1,
+      "umidita_rh": 82.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T02:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "02:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 12.7,
+      "umidita_rh": 83.7,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T03:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "03:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 12.5,
+      "umidita_rh": 82.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T04:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "04:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 11.2,
+      "umidita_rh": 81.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T05:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "05:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 10.4,
+      "umidita_rh": 85.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T06:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "06:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 10.2,
+      "umidita_rh": 81.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T07:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "07:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 9.3,
+      "umidita_rh": 87.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T08:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "08:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 11.1,
+      "umidita_rh": 77.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T09:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "09:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 12.7,
+      "umidita_rh": 69.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T10:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "10:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 14.1,
+      "umidita_rh": 63.1,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T11:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "11:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 15.2,
+      "umidita_rh": 61.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T12:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "12:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 16.0,
+      "umidita_rh": 58.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T13:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "13:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 16.4,
+      "umidita_rh": 56.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T14:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "14:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 16.4,
+      "umidita_rh": 54.2,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T15:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "15:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 15.9,
+      "umidita_rh": 56.3,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T16:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "16:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 15.0,
+      "umidita_rh": 57.8,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T17:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "17:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 13.0,
+      "umidita_rh": 64.6,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T18:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "18:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 12.7,
+      "umidita_rh": 66.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T19:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "19:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 11.8,
+      "umidita_rh": 69.5,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T20:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "20:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 10.8,
+      "umidita_rh": 76.9,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T21:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "21:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 9.5,
+      "umidita_rh": 83.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T22:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "22:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 9.3,
+      "umidita_rh": 87.4,
+      "stato_rilevamento": "OK"
+    },
+    {
+      "timestamp": "2026-11-14T23:00:00+01:00",
+      "data": "2026-11-14",
+      "ora": "23:00",
+      "fuso_orario": "CET",
+      "stazione": "Castiglion Fiorentino",
+      "id_stazione": "TOS11000038",
+      "temperatura_c": 10.8,
+      "umidita_rh": 84.9,
       "stato_rilevamento": "OK"
     }
   ]
